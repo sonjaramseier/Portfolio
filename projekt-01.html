@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VORNAME NACHNAME</title>
+    <!--Favicon laden-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
+    <!--CSS verlinken-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--JavaScript verlinken-->
+    <script src="sketch.js"></script>
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+</head>
+
+<body>
+    <!--Header = Kopfteil Webseite-->
+    <header>
+        <br>
+        <a href="home.html"><button id="title-button">VORNAME NACHNAME</button></a>
+    </header>
+
+    <!--Nav = Sachen für Seitennavigation-->
+    <nav>
+        <br>
+        <br>
+        <a href="home.html"><button id="navigation-button">HOME</button></a>
+        <a href="about.html"><button id="navigation-button">ABOUT</button></a>
+        <a href="contact.html"><button id="navigation-button">CONTACT</button></a>
+    </nav>
+
+    <!--Back-Button-->
+    <section><br>
+        <br>
+        <a href="home.html">
+            <button id="back-button">BACK</button></a>
+    </section>
+
+    <!--Titel-->
+    <section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Title Project 1</h1>
+    </section>
+
+    <!--Bildergalerie-->
+    <section>
+        <div class="container">
+            <!--Grossformatige Bilder-->
+            <div class="mySlides">
+                <div class="numbertext">1/4</div>
+                <img src="assets/bild.jpg" style="width:100%">
+            </div>
+            <div class="mySlides ">
+                <div class="numbertext ">2/4</div>
+                <img src="assets/bild.jpg " style="width:100%">
+            </div>
+            <div class="mySlides ">
+                <div class="numbertext ">3/4</div>
+                <img src="assets/bild.jpg " style="width:100%">
+            </div>
+            <div class="mySlides ">
+                <div class="numbertext ">4/4</div>
+                <img src="assets/bild.jpg " style="width:100%">
+            </div>
+
+            <!--Vor und Zurück Buttons-->
+            <a class="prev " onclick="plusSlides(-1) ">&#10094;</a>
+            <a class="next " onclick="plusSlides(1) ">&#10095;</a>
+
+            <!-- Image text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!--Thumbnail images-->
+            <div class="row ">
+                <div class="column ">
+                    <img class="demo cursor " src="assets/bild.jpg " style="width:100% " onclick="currentSlide(1) ">
+                </div>
+                <div class="column ">
+                    <img class="demo cursor " src="assets/bild.jpg" style="width:100% " onclick="currentSlide(2)">
+                </div>
+                <div class="column ">
+                    <img class="demo cursor " src="assets/bild.jpg " style="width:100% " onclick="currentSlide(3) ">
+                </div>
+                <div class="column ">
+                    <img class="demo cursor " src="assets/bild.jpg " style="width:100% " onclick="currentSlide(4) ">
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+    </section>
+
+    <!--Projektbeschrieb-->
+    <section>
+        <br>
+        <br>
+        <br>
+        <h3>Title Project 1</h3>
+        <br>
+        <br>
+        <br>
+
+        <p class="detailangaben-projekt">Technique: ...<br>Format: ...<br>Data: ...<br>Year created: ...</p>
+
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+            sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+            duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+    </section>
+
+
+    <!--Footer=Fussteil Webseite-->
+    <footer>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="https://www.instagram.com/ "><img src="assets/instagram.png " style="width:20px;height:20px; "></a>
+        <a href="https://ch.linkedin.com/ "><img src="assets/linkedin2.png " style="width:20px;height:20px; "></a>
+        <br>
+        <p> </p>
+        <p> </p>
+        <p> </p>
+    </footer>
+</body>
+
+</html>
