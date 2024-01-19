@@ -1,6 +1,6 @@
 # Github
 
-https://github.com/sonjaramseier/Github_IDA_repos
+https://github.com/sonjaramseier/Portfolio.git
 
 # Netlify
 
